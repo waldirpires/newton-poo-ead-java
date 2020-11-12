@@ -1,0 +1,14 @@
+// {type:class}
+// {direction:leftToRight}
+
+[Customer]->[Order]               // Association
+[Customer]<>->[Order]             // Aggregation
+[Customer]++->[Order]             // Composition
+[Customer]1-0..1>[Order]          // Cardinality
+[Customer]1-0..orders 1>[Order]   // Assoc Labels
+[Customer]-.-[note: DAO]          // Notes
+[Customer]^[Member]               // Inheritance
+[Customer|name;address|save()]    // Properties
+[≪IDisposable≫;Customer]          // Interface
+[Customer|var arr［］ ]            // Brackets
+[Customer {bg:green}]             // Colour

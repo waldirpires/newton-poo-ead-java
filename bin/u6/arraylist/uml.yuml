@@ -1,0 +1,5 @@
+// {type:class}
+// {direction:leftToRight}
+
+// agregação
+[Escola]<>->[Aluno]
