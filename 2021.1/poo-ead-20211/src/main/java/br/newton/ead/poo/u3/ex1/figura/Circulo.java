@@ -15,6 +15,11 @@ public class Circulo extends Figura {
     }
 
     @Override
+    public float calcularPerimetro() {
+        return 0;
+    }
+
+    @Override
     public String toString() {
         return "Circulo [raio=" + raio + ", getNome()=" + getNome() + "]";
     }

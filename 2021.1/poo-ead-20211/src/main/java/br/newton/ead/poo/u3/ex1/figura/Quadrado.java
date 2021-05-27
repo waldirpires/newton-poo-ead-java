@@ -15,6 +15,11 @@ public class Quadrado extends Figura {
     }
 
     @Override
+    public float calcularPerimetro() {
+        return 0;
+    }
+
+    @Override
     public String toString() {
         return "Quadrado [lado=" + lado + ", getNome()=" + getNome() + "]";
     }
