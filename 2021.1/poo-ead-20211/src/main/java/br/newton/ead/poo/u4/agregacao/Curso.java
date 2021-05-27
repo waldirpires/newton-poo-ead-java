@@ -38,4 +38,8 @@ public class Curso {
             ", disciplinas=" + disciplinas +
             '}';
     }
+
+    public List<Disciplina> getDisciplinas() {
+        return disciplinas;
+    }
 }
