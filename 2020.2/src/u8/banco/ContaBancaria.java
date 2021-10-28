@@ -1,6 +1,6 @@
 package u8.banco;
 
-class ContaBancaria {
+public class ContaBancaria {
 
     String agencia;
 

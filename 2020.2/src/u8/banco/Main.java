@@ -46,6 +46,8 @@ public class Main {
                     } catch (Exception e) {
                         JOptionPaneUtil.exibirJanelaDeErro(opcao,
                                 "Não foi possível efetuar a operação de " + opcao + ": " + e.getMessage());
+                    } finally {
+                    	System.out.println("Saldo: " + cb.getSaldo());
                     }
 
                     break;

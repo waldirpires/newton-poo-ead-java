@@ -46,7 +46,7 @@ public class ConversorTemp extends JFrame {
 
         conversor.add(painelOp);
 
-        var resp = new JTextArea(10, 10);
+        var resp = new JTextArea(100, 100);
         conversor.add(resp);
 
         // tratando evento do botão C -> F
@@ -67,7 +67,7 @@ public class ConversorTemp extends JFrame {
                 // c = (f - 32) * 5/9
                 var f = Double.parseDouble(entrada.getText());
                 var c = (f - 32) * 5 / 9;
-                resp.setText("Resposta: " + f + " Celsius");
+                resp.setText("Resposta: " + c + " Celsius");
             }
         });
 
