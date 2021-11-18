@@ -51,8 +51,6 @@ public class FrameConversorTemp {
 				resposta.setText("Resposta: " + f + " Fahrenheit");
 			}
 		});
-        
-        
 
         frame.pack();
         frame.setVisible(true);
