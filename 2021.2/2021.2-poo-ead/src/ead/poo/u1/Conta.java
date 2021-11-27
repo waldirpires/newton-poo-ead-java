@@ -33,7 +33,7 @@ public class Conta {
 	  public void encerrar() {
 	    // zerar ela
 	    sacar(saldo);
-	    // atualizar o estado
+	    // atualizar o estado 
 	    estado = 3; // encerrada
 	  }
 
